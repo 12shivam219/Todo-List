@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 To-Do List Application
 This is a simple to-do list application that allows a user to perform various actions like adding a new entry and updating existing entries. The application supports the following features:
 
@@ -79,4 +78,3 @@ If you would like to contribute to this project, please open an issue or submit 
 =======
 # Todo-List
 "Todo List - A simple task management app that allows users to create and manage tasks. Includes features such as timestamp creation, title, description, due date, tags, and status updates. Built with Ant Design, supports pagination and search. Ideal for personal or team use."
->>>>>>> origin/main
