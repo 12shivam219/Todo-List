@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+To-Do List Application
+This is a simple to-do list application that allows a user to perform various actions like adding a new entry and updating existing entries. The application supports the following features:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Timestamp created: Timestamp at which a task was created. Should be auto set when creating a new entry. A user should not be able to edit this.
 
-## Available Scripts
+Title: Title of the task to be done.
 
-In the project directory, you can run:
+A user can set this while creating a new entry. A user can also change this updating an existing entry.
+Max length: 100 characters.
+Mandatory field
+Description: Description of the task to be done.
 
-### `npm start`
+A user can add details about this task.
+Max length: 1000 characters.
+Mandatory field.
+Due Date: Expected due date to finish the task.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+A user can set this while creating a new entry. A user can also change this updating an existing entry.
+Optional field.
+Tag: One or more tags which user can add to the entry.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+A user can set this while creating a new entry. A user can also change this updating an existing entry.
+Multiple tags can be added to the same entry.
+Optional field.
+Multiple tags with the same value should be saved only once.
+Status: Shows status of a task.
 
-### `npm test`
+Should be one of these values:
+OPEN (Default value)
+WORKING
+DONE
+OVERDUE
+Mandatory field.
+The table should support pagination.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+User should be able to perform the following operations:
 
-### `npm run build`
+ADD a new to-do entry.
+SEARCH for entries by title or description.
+Also search column by column
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Getting Started
+To get started, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clone the repository to your local machine.
+Install the dependencies by running npm install in the project directory.
+Start the application by running npm start.
+Open your browser and navigate to http://localhost:3000.
+Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Once the application is running, you can perform the following actions:
 
-### `npm run eject`
+To add a new to-do entry, click the "Add New Entry" button at the top of the page. Fill in the required fields (Title, Description, and Status) and click "Add" to create a new entry.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To update an existing entry, click the "Edit" button on the row for the entry you wish to update. Update the fields you wish to change and click "Save" to save the changes.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To delete an entry, click the "Delete" button on the row for the entry you wish to delete.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To filter entries by status, use the "Status" dropdown at the top of the page.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To search entries by title or tag, use the search bar at the top of the page.
 
-## Learn More
+To navigate through pages of entries, use the pagination controls at the bottom of the page.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Technologies Used
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This application was built using the following technologies:
 
-### Code Splitting
+React
+Ant Design
+moment.js
+Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+If you would like to contribute to this project, please open an issue or submit a pull request. All contributions are welcome!
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

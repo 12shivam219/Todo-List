@@ -1,0 +1,26 @@
+.search {
+    text-align: center;
+    padding: 28px 0;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 38px;
+}
+
+.Inputs {
+    width: 100%;
+    margin: auto;
+    max-width: 450px;
+}
+
+.inputs {
+    margin: 10px 0;
+}
+
+.Submit-Button {
+    text-align: center;
+}
