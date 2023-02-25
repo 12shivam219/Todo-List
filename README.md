@@ -1,9 +1,9 @@
-To-Do List Application
+# To-Do List Application
 This is a simple to-do list application that allows a user to perform various actions like adding a new entry and updating existing entries. The application supports the following features:
 
-Timestamp created: Timestamp at which a task was created. Should be auto set when creating a new entry. A user should not be able to edit this.
+# Timestamp created: Timestamp at which a task was created. Should be auto set when creating a new entry. A user should not be able to edit this.
 
-Title: Title of the task to be done.
+# Title: Title of the task to be done.
 
 A user can set this while creating a new entry. A user can also change this updating an existing entry.
 Max length: 100 characters.
@@ -13,17 +13,20 @@ Description: Description of the task to be done.
 A user can add details about this task.
 Max length: 1000 characters.
 Mandatory field.
-Due Date: Expected due date to finish the task.
+
+# Due Date: Expected due date to finish the task.
 
 A user can set this while creating a new entry. A user can also change this updating an existing entry.
 Optional field.
-Tag: One or more tags which user can add to the entry.
+
+#Tag: One or more tags which user can add to the entry.
 
 A user can set this while creating a new entry. A user can also change this updating an existing entry.
 Multiple tags can be added to the same entry.
 Optional field.
 Multiple tags with the same value should be saved only once.
-Status: Shows status of a task.
+
+# Status: Shows status of a task.
 
 Should be one of these values:
 OPEN (Default value)
@@ -66,10 +69,10 @@ Technologies Used
 
 This application was built using the following technologies:
 
-React
-Ant Design
-moment.js
-Contributing
+# React
+# Ant Design
+# moment.js
+# Contributing
 
 If you would like to contribute to this project, please open an issue or submit a pull request. All contributions are welcome!
 
