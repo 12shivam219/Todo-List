@@ -65,14 +65,13 @@ To search entries by title or tag, use the search bar at the top of the page.
 
 To navigate through pages of entries, use the pagination controls at the bottom of the page.
 
-Technologies Used
-
+# Technologies Used
 This application was built using the following technologies:
 
-# React
-# Ant Design
-# moment.js
-# Contributing
+React
+Ant Design
+moment.js
+Contributing
 
 If you would like to contribute to this project, please open an issue or submit a pull request. All contributions are welcome!
 
